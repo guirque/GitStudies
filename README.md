@@ -33,7 +33,7 @@ The second one is optional and fits inside the description box.
 It is also possible to add and commit at the same time with <code>git commit -am "aString" -m "anotherString"</code>, but it only works with modified files (not untracked ones).
 
 <h2><code>git log</code></h2>
-Displays submitted commits, with info such as author name and associated hash (unique commit indetifier).
+Displays submitted commits, with info such as author name and associated hash (unique commit indetifier). Press space to load more and 'q' to leave. 
 
 <h1>Local Machine -> Remote Rep</h1>
 <hr>
