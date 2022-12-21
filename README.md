@@ -2,7 +2,7 @@
 
 <h1>Remote Rep -> Local Machine</h1>
 <hr>
-<h2><code>git clone</code></h2
+<h2><code>git clone</code></h2>
 Copies files from remote repository to local machine.
 
 <h1>Local Machine</h1>
