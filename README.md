@@ -43,7 +43,7 @@ Uploads the current directory to a new git remote repository. Only works if the 
 
 #if it already exists
 <h2><code>git push origin branchName</code></h2>
-Saves to remote repository what is held on the local machine (all the commits yet to be pushed). If an origin and branch is mentioned, updates are made accordingly. Otherwise, it is all done regarding a default location, which can be set with <code>git push -u origin branchName</code> (u stands for upstream).
+Saves to remote repository what is held on the local machine (all the commits yet to be pushed). If an origin and branch is mentioned, updates are made accordingly. Otherwise, it is all done regarding the currently set upstream (-u), which can be set with <code>git push -u origin branchName</code> (u stands for upstream). When creating new branches and pushing to them, it is necessary to take the upstream into consideration.
 
 <h2><code>git pull</code></h2>
 Makes a pull request.
