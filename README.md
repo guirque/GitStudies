@@ -2,8 +2,8 @@
 
 <h1>Remote Rep -> Local Machine</h1>
 <hr>
-<h2><code>git clone</code></h2>
-Copies files from remote repository to local machine.
+<h2><code>git clone [remoteRepositoryURL].git</code></h2>
+Copies files from remote repository to local machine. May use HTTP or SSH. 
 
 <h2><code>git pull origin [branchName]</code></h2>
 Updates the local machine code with the one present remotely. If no <code>origin branchName</code> has been specified, it uses the upstream. 
